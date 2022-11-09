@@ -9,7 +9,8 @@ for (let index = 0; index < droplist.length; index++) {
     if (index == 0) {
       selected = currency_list == "USD" ? "selected" : "";
     } else if (index == 1) {
-      selected = currency_list == "NPR" ? "selected" : "";
+      selected = currency_list == "ILS" ? "selected" : "";
+      
     }
 
     let optionTag = `<option value="${currency_list}"${selected}>${currency_list}</option>`;
